@@ -35,7 +35,7 @@ const AllUsers = (props) => {
                         return <tr key={i + 1}>
                             <td>{i + 1}</td>
                             <td>{e.name}</td>
-                            <td>{e.degree}</td>
+                            <td>{e.grad}</td>
                             <td>{e.department}</td>
                             <td>{e.mobile}</td>
                             <td>{e.email}</td>
